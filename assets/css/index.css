@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+body{
+    background: #efefef;
+}
+form{
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 0.1em solid #0000002e;
+    border-radius: 0.1em;
+    width: 50em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
+input#search{
+    background: blue;
+    border-radius: 0.1em;
+}
+.column1, .column2, .column3{
+    width: 26em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: start;
+    align-content: center;
+}
+input{
+    border: none;
+}
+::placeholder{
+    font-size: 1.5em;
+    justify-self: center;
+    align-self: center;
+}
+.img, .img-column3{
+    /* border: 1px solid black; */
+    /* border-right: 2px solid black; */
+    width: 22em;  
+    margin-bottom: 0.5em;
+    height: 28em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    background: white;
+}
+h1, p{
+    text-transform: capitalize;
+}
+p{
+    font-size: 1.7em;
+    text-align: center;
+}
+.bigger-one{
+    display: flex;
+    flex-direction: row;
+}
+.img-column2{
+    width: 25em;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* border: 1px solid black; */
+    margin-bottom: 0.7em;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.img-column2:nth-of-type(2){
+    height: 35em;
+}
+.img-column2:nth-of-type(3), .img-column2:nth-of-type(4), .img-column2:nth-of-type(6), .img-column2:nth-of-type(1) {
+    height:20em;
+}
+.column2, .column3{
+    justify-content: start;
+}
+.img-column3:nth-of-type(6), .img-column3:nth-of-type(5), .img-column3:nth-of-type(4), .img-column3:nth-of-type(1){
+    height: 22em;
+}
+.img-column3:nth-of-type(3){
+    height: 24em;
+}
+.img-column3:nth-of-type(7){
+    height: 25em;
+    margin-bottom: 0;
+}
+.img:nth-of-type(3), .img:nth-of-type(6){
+    height: 22em;
+}
+.img-column2:nth-of-type(1), .img-column2:nth-of-type(4){
+    width: max-content;
+    margin-left: 2em;
+}
+.img-column2:nth-of-type(4){
+    margin-left: 1em;
+}
+.img-column3:nth-of-type(4){
+    height: 18em;
+}
+.img-column3:nth-of-type(6){
+    height:19em;
+}
